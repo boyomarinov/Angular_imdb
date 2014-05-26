@@ -14,6 +14,7 @@
             })
             .success(function (data, status, headers, config) {
                 $scope.movies = data.Search;
+                console.log(headers);
                 $scope.showMovieResults = true;
                 $scope.showErrorMessage = false;
             })

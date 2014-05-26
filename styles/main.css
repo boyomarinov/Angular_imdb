@@ -26,3 +26,13 @@ h3 {
 #details-container #info-column > div {
     margin: 10px 5px;
 }
+
+#results-container table tbody tr:hover {
+    background: #d3d3d3;
+}
+
+#results-container table tbody tr td:first-child {
+
+    cursor: pointer;
+}
+
